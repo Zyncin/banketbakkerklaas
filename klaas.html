@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="language" content="nl">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Banketbakker Klaas">
+<meta name="author" content="Eloy Maddamin">
+<meta name="keywords" content="zoet, banket, bakker, cake">
+<title>Banketbakker Klaas</title>
+<link rel="stylesheet" type="text/css" href="klaas.css">
+</head>
+    <body>
+        <ul class="slideshow">
+  <li><span>Image 01</span></li>
+  <li><span>Image 02</span></li>
+  <li><span>Image 03</span></li>
+  <li><span>Image 04</span></li>
+  <li><span>Image 05</span></li>
+  <li><span>Image 06</span></li>
+</ul>
+  <div class="container">
+    <header>
+        <div class="nav">
+            <img src="images/logo.png">
+            <a href="klaas.html">Home</a>
+            <a href="#alleproducten">Assortiment</a>
+            <a href="#toptext2">Contact</a>
+        </div>
+  </header>
+      <article class="text">
+          <h1>Welkom op de website van Banketbakker Klaas</h1>
+          <p>Kwaliteits bakker</p>
+      </article>
+</div>
+        <section class="main">
+            <article class="toptext">
+                <h2>Assortiment</h2>
+            </article>
+            <div id="alleproducten">
+            <div class="producten">
+            <div class="product">
+  <img src="images/cake.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Cakes</div>
+  </div>
+</div>
+            <div class="product">
+  <img src="images/Taart.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Taarten</div>
+  </div>
+</div>
+                <div class="product">
+  <img src="images/gebak.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Gebakjes</div>
+  </div>
+</div>
+            </div>
+            
+            <div class="producten">
+            <div class="product">
+  <img src="images/chocola.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Chocolade</div>
+  </div>
+</div>
+            <div class="product">
+  <img src="images/kleinetaart.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Kleine<br>taartjes</div>
+  </div>
+</div>
+            <div class="product">
+  <img src="images/koekjes.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Koekjes<br>zoet</div>
+  </div>
+</div>
+            </div>
+            
+            <div class="producten">
+            <div class="product">
+  <img src="images/stukswerk%20zoet.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Stukswerk<br>zoet</div>
+  </div>
+</div>
+            <div class="product">
+  <img src="images/stukswerk%20hartig.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Stukswerk<br>hartig</div>
+  </div>
+</div>
+            <div class="product">
+  <img src="images/Koekjes%20zout%20en%20kaas.jpg" alt="Avatar" class="productimage">
+  <div class="overlay">
+    <div class="producttext">Koekjes<br>zout en kaas</div>
+  </div>
+</div>
+                </div>
+            </div>
+            
+            <article id="toptext2">
+                <h3>Contact</h3>
+                </article>
+            <div class="contact">
+                <div class="contact_text">
+                    <div class="gegevens">
+                        <h1>Adres</h1>
+                        <p>Obrechtstraat 17<br>Alphen a/d Rijn<br>2609 KI</p>
+                    </div>
+                    <div class="gegevens">
+                        <h1>Contactgegevens</h1>
+                        <p>0172-957682<br>bakkerklaas@gmail.com</p>
+                    </div>
+                    <div class="gegevens">
+                        <h1>Openingstijden</h1>
+                        <p>maandag: 10:00-18:00<br>dinsdag: 10:00-21:00<br>donderdag: 10:00-21:00<br>vrijdag: 10:00-17:00</p>
+                    </div>
+                </div>
+                
+                <div id="googleMap"></div>
+                <script>
+                    function myMap() {
+                        var mapProp= {
+                            center:new google.maps.LatLng(51.508742,-0.120850),
+                            zoom:5,
+                        };
+                        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                    }
+                </script>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+                </script>
+            </div>
+            
+            <article id="copyright">
+                <p>All Rights Reserved ® | Banketbakker Klaas</p>
+            </article>
+      </section>
+    </body>
+</html>
